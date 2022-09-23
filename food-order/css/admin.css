@@ -1,0 +1,148 @@
+/* 
+   Author: Himesh Fernando;
+   Theme : Food order system Admin pannel;
+   Version : 1.0;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+
+}
+/* CSS For Buttons */
+.btn-primary{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color:#2ed573;
+    
+}
+
+.btn-secondry{
+    background-color:#ffa502;
+    padding: 1%;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondry:hover{
+    background-color:#ff7f50;
+    
+}
+.btn-delete{
+    background-color:#ff6b81;
+    padding: 1%;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-delete:hover{
+    background-color:#ff4757;
+    
+}
+
+.success{
+    color: #2ed573;
+}
+.success-login{
+    color: #2ed573;
+    text-align: center;
+}
+
+.error{
+    color: #ff4757;
+}
+/* CSS for Menu */
+.menu{
+    border-bottom:1px solid teal;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a:hover{
+    color: #2f3542;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color:teal ;
+}
+
+/* CSS for main Content */
+.main-content{
+    
+    background-color: #f1f2f6;
+    padding: 3% 0 ;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* Css For Login */
+.login{
+    border: 1px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+    font-weight: bold;
+    background-image: url("../images/BGLogin.jpg");;
+    /* background-image: -webkit-linear-gradient(teal,white); */
+}
+.login-txtfld{
+    padding: 2%;
+}
+
+/* CSS for footer */
+.footer{
+    background-color: teal;
+    color: #f1f2f6;
+    
+
+}
